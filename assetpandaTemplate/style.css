@@ -1,0 +1,344 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+} */
+/* 
+nav{
+    position: fixed;
+    width: 100%;
+    background: black;
+    padding: 10px 0;
+    z-index: 11;
+    height: 10%;
+}
+
+nav .menu{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu .logo a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.menu ul{
+    display: inline-flex;
+}
+
+.menu ul li{
+    list-style-type: none;
+    padding-right: 11px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover{
+    color: pink
+} */
+
+/* .img{
+    background: url('https://img.freepik.com/free-vector/luxury-background-with-golden-abstract-shapes_23-2148258299.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698710400&semt=ais')no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+.center .title{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.center .sub_title{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+
+button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: pink;
+} */
+
+  /* a {
+      text-decoration: none;
+  }
+  
+  li {
+      list-style: none;
+  }
+  
+  .bg-scrolling {
+      background: rgba(96, 163, 188, 0.4);
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link { padding-left: 2.5rem; }
+  
+  .nav-item a {
+      font-size: 14px;
+      color: #1e3799;
+      font-weight: 600;
+  }
+  menu ul{
+    display: inline-flex;
+    float: right;
+}
+nav ul li{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.nav ul li{
+    list-style-type: none;
+    padding-right: 11px;
+} */
+
+body {
+    /* height: 100% */
+    /* background:linear-gradient(160deg, red, red 60%, white 60%, white); */
+  }
+.bg-scrolling {
+    background:rgb(112, 112, 230)
+   
+}
+nav{
+    background-color:transparent;
+}
+#items{
+    color: white;
+}
+
+#btn{
+   background-color:  #f0452b;
+   border: none;
+}
+
+#btn1{
+    transition: all .3s ease-in-out;
+    background: transparent;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: white;
+}
+
+.background-image {
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+    background:linear-gradient(160deg, red, red 60%, white 60%, white);
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    /* -webkit-clip-path: polygon(0 0, 0 100px, 100px 80px, 100px 0);
+    clip-path: polygon(0 0, 0 100px, 100px 80px, 100px 0); */
+}
+
+.example img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .example .overlay {
+    
+    display: flex;
+  }
+.example .overlay .content{
+    position: absolute;
+    top: 20%;
+    right: 60%;
+    text-align: start;
+    color: white;
+    /* display: flex; */
+}
+
+.example .overlay .img1{
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}
+.btn1{
+    padding: 14px 24px;
+    /* border: none; */
+    border-radius: 6px;
+    line-height: 19px;
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    /* background: #f0452b; */
+    transition: all .3s ease-in-out;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.heading{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: start;
+}
+
+.p{
+    font-size: 13px;
+    /* line-height: 1.2; */
+    font-weight: 300;
+    color: #1d2331;
+    font-family: "Lato",sans-serif;
+    letter-spacing: 3px;
+}
+
+.title2 {
+    text-align: center;
+    font: normal normal bold 76px/87px Arial;
+    letter-spacing: 0px;
+    color: #4a4949;
+    opacity: 1;
+    padding-left: 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.example1 img {
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+  }
+  
+  .example1 .overlay {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+.example1 .overlay .content{
+    /* position: absolute; */
+     /* top: 20%; */
+    right: 20px; 
+    text-align: start;
+    color: black;
+    padding-right: 100px;
+    /* display: flex; */
+}
+
+.example1 .overlay .img1{
+    /* position: absolute; */
+    right: 20%;
+    top: 20%;
+}
+
+.example1 .overlay p{
+    font-family: sans-serif;
+    color: #596175;
+}
+
+.text{
+    font-family: sans-serif;
+    color: #596175;
+}
+
+.example2 img {
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+  }
+  
+  .example2 .overlay {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 76px 0 75px;
+    background-color: #f7f9fd;
+  }
+  
+.example2 .overlay .content{
+    /* position: absolute; */
+     /* top: 20%; */
+    text-align: start;
+    color: black;
+    padding: 20%
+    /* display: flex; */
+}
+
+.example2 .overlay .img1{
+    /* position: absolute; */
+    right: 20%;
+    top: 20%;
+    /* padding: 10px; */
+    padding-right: 100px;
+}
+
+.example2 .overlay p{
+    font-family: sans-serif;
+    color: #596175;
+    padding-top: 10px;
+}
+
+.example2 .overlay .p1{
+    color: #f0452b;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.example1 .overlay .p1{
+    color: #f0452b;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.example1 .overlay #content1{
+    padding-bottom: 60px;
+}
